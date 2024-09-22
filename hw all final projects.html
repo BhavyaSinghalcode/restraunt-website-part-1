@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">BH Singhal Restraunt</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#banner">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner Section -->
+    <section class="banner">
+        <div class="container text-center">
+            <h1 class="display-3 text-white">Welcome to Our Restaurant</h1>
+            <p class="lead text-white">Delicious food, unforgettable moments</p>
+            <a href="#" class="btn btn-primary btn-lg">Explore Menu</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+<section id="about" class="about py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2 class="mb-4">About Our Restaurant</h2>
+                <p>
+                    Welcome to our restaurant where we serve delicious food with fresh ingredients, 
+                    ensuring an unforgettable culinary experience. Whether you’re here for a family gathering 
+                    or a casual meal, we’ve got something special for everyone. Join us to enjoy a warm 
+                    atmosphere and mouth-watering flavors.
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <img src="restaurant_interior.jpeg" class="img-fluid rounded" alt="Restaurant Interior">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio py-5">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="mb-5">Our Special Dishes</h2>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="dish1.jpeg" class="card-img-top" alt="Dish 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Chilly Potato</h5>
+                        <p class="card-text">A flavorful dish packed with fresh ingredients and spices.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="dish2.jpeg" class="card-img-top" alt="Dish 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Tandoori Tikka</h5>
+                        <p class="card-text">A fusion of traditional and modern culinary techniques.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="dish3.jpeg" class="card-img-top" alt="Dish 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Shahi Paneer</h5>
+                        <p class="card-text">An exquisite dish that brings flavors from around the world.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
